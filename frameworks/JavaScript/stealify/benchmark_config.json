@@ -1,0 +1,31 @@
+{
+  "framework": "stealify",
+  "tests": [
+    {
+      "default": {
+        "json_url": "/json",
+        "plaintext_url": "/plaintext",
+        "db_url": "/db",
+        "query_url": "/queries?queries=",
+        "cached_query_url": "/cached?queries=",
+        "update_url": "/updates?queries=",
+        "fortune_url": "/fortunes",
+        "port": 8080,
+        "approach": "Realistic",
+        "classification": "Fullstack",
+        "database": "mongodb",
+        "framework": "stealify",
+        "language": "JavaScript",
+        "flavor": "None",
+        "orm": "Full",
+        "platform": "None",
+        "webserver": "None",
+        "os": "Linux",
+        "database_os": "Linux",
+        "display_name": "stealify",
+        "notes": "",
+        "versus": "None"
+      }
+    }
+  ]
+}
