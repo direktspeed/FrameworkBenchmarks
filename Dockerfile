@@ -13,7 +13,7 @@ RUN apt-get -yqq install -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::
   software-properties-common \
   libmysqlclient-dev            `# Needed for MySQL-python`
 
-RUN pip install colorama==0.3.1 requests MySQL-python psycopg2-binary pymongo docker==4.0.2 psutil
+RUN pip install colorama==0.3.1 requests MySQL-python psycopg2-binary pymongo docker==4.0.2 psutil couchbase
 
 RUN apt-get install -yqq siege
 
